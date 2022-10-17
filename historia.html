@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+   <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,600&display=swap');
+*{
+box-sizing: border-box;
+}
+body{
+   font-family: 'Lora', serif;
+}
+header{
+
+    background-color: burlywood;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(83, 33, 33);
+}
+section{
+    display: flex;
+}
+nav{
+float: left;
+width: 30%;
+
+background: rgb(197, 15, 15);
+padding: 20px;
+}
+nav ul{
+    list-style-type: none;
+}
+section:after{
+    content: "";
+    display: table;
+    clear: both;
+
+}
+article{
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color:rgb(255, 255, 255);
+
+}
+footer {
+ background-color: tomato;
+ padding: 10px;
+ text-align: center;
+ color: white;
+}
+
+@media only screen and (max-width: 620px)
+{
+    article, nav{
+        width: 100%;   
+    }
+    section {
+        display: block;
+  }
+}
+        </style>
+            <center> <h1>Pinturas Historicas</h1></center>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="index.html">El Arte</a></li><br>
+                    <li><a href="bodegon.html">Bodegon.</a></li><br>
+                    <li><a href="retratos.html">Retratos y paisajes</a></li><br>
+                </ul>
+            </nav>
+    
+        <article>
+               <center> <h1>Durante siglos y siglos...</h1></center>
+                <p>La pintura de historia, o pintura histórica, es un género pictórico que se inspira en escenas con eventos de la historia cristiana, de la historia antigua (mesopotámica, egipcia, griega, romana, etcétera), de la mitología o de los acontecimientos históricos recientes. Igualmente, se incluye en este género la alegoría y aquellos cuadros que toman su narración no de la historia sino de la literatura. Es decir, se le llama «histórica» no porque represente exclusivamente acontecimientos históricos sino porque narra una historia.</p>
+            <a href="https://img2.rtve.es/i/?w=1600&i=1630997276806.jpg" alt="" width="400"></a>
+              <p>Con orígenes en la antigüedad y muy popular en el arte occidental desde el siglo XVII, el bodegón da al artista más libertad compositiva que otros géneros pictóricos como el paisaje o los retratos. Los bodegones, particularmente antes de 1700, a menudo contenían un simbolismo religioso y alegórico en relación con los objetos que representaban. Algunos bodegones modernos rompen la barrera bidimensional y emplean técnicas mixtas tridimensionales, usando asimismo objetos encontrados, fotografía, imágenes generadas por computadora o sonido y vídeo.</p>
+       <center><img width="500" src="img/allegory.jpg" alt=""></center>
+            </article>
+        </section>
+        <footer>
+            <p>Copyright Zack Pors<che</p>
+        </footer>
+        
+    </body>
+    </html>
